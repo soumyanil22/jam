@@ -1,9 +1,10 @@
-import { ThemeProvider } from './@/components/theme-provider';
+import { ThemeProvider } from '@/components/theme-provider';
+import Homepage from './Homepage';
 
 function App() {
   return (
     <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
-      <h1>Hello</h1>
+      <Homepage />
     </ThemeProvider>
   );
 }
